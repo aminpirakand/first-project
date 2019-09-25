@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Adidas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header id="home" class="home">
+        <nav class="navbar navbar-expand-sm  navbar-dark bg-color navbar-fixed-top ">
+            <a class="navbar-brand" href="index.html">ADIDAS</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">ARRIVALS <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Women</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">T-shirt</a>
+                            <a class="dropdown-item" href="#">Shoes</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="dropdownId01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Men</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">T-shirt</a>
+                            <a class="dropdown-item" href="#">Shoes</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="dropdownId02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kids</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Boys</a>
+                            <a class="dropdown-item" href="#">Girls</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a href="#" class="nav-link">Brands</a>
+                    <a href="#" class="nav-link">Sports</a>
+                    <input type="search" class="my-search" id="search-id" placeholder="search...">
+                    <button class="btn" onmouseover="myFunction()"> <a href=""><i
+                                class="fas fa-search"></i></a></button>
+                    <button onclick="myLog()" class="login">Login</button>
+                    <button onclick="myReg()" class="register">Register</button>
+
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="container prod">
+        <div class="row">
+            <div class="col my-col  ">
+                <h2>Shoes</h2>
+                <p>The .img-thumbnail class creates a thumbnail of the image:</p>
+                <a href="Products.html" type="btn" onclick="myprod()"> <img src="img/shoes.jpg" class="img-thumbnail" alt="" width="304" height="236">
+                </a>
+            </div>
+            <div class="col my-col ">
+                <h2>Shoes</h2>
+                <p>The .img-thumbnail class creates a thumbnail of the image:</p>
+                <a href="Products.html"> <img src="img/shoes.jpg" class="img-thumbnail" alt="" width="304" height="236" id="02">
+                </a>
+            </div>
+            <div class="col my-col ">
+                <h2>T-shirt</h2>
+                <p>The .img-thumbnail class creates a thumbnail of the image:</p>
+                <a href="Products.html"><img src="img/t-shirt2.jpg" class="img-thumbnail" alt="" width="304" height="236" id="03"></a>
+            </div>
+            <div class="col my-col">
+
+                <h2>Shoes</h2>
+                <p>The .img-thumbnail class creates a thumbnail of the image:</p>
+                <a href="Products.html"> <img src="img/shoes3.jpg" class="img-thumbnail" alt="" width="304" height="236" id="04">
+                </a>
+            </div>
+
+        </div>
+        <!-- <div class="row">
+            <div class="col my-col">
+                <h2>Shoes</h2>
+                <p>The .img-thumbnail class creates a thumbnail of the image:</p>
+                <a href="" onclick="myshop()"> <img src="img/shoes.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+                </a>
+            </div>
+            <div class="col my-col">
+                <h2>T-shirt</h2>
+                <p>The .img-thumbnail class creates a thumbnail of the image:</p>
+                <a href="Products.html"><img src="img/t-shirt2.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236"></a>
+            </div>
+            <div class="col my-col">
+                <h2>Shoes</h2>
+                <p>The .img-thumbnail class creates a thumbnail of the image:</p>
+                <a href="Products.html"> <img src="img/shoes.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236"></a>
+            </div>
+            <div class="col my-col">
+
+                <h2>Shoes</h2>
+                <p>The .img-thumbnail class creates a thumbnail of the image:</p>
+                <a href="Products.html"> <img src="img/shoes3.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+                </a>
+            </div>
+        </div> -->
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

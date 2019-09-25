@@ -1,0 +1,234 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+        /* rgba(0, 255, 64, 0.9) */
+        /* rgb(255, 20, 20, 0.9) */
+        
+        body {
+            background-image: url('../img/wide.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* nav */
+        
+        .bg-color {
+            background-color: black;
+        }
+        
+        ul li {
+            padding: 10px 30px;
+        }
+        
+        ul li a {
+            color: white !important;
+            font-weight: bold;
+            text-align: center !important;
+            float: left !important;
+        }
+        
+        li a:hover {
+            color: rgb(57, 106, 197, 0.9) !important;
+        }
+        
+        .form-inline a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 30px;
+            font-weight: bold;
+        }
+        
+        .form-inline a:hover {
+            color: rgb(57, 106, 197, 0.9) !important;
+        }
+        
+        .dropdown-menu {
+            background-color: black !important;
+            color: #f44336;
+        }
+        
+        .dropdown-item {
+            float: left !important;
+            color: white;
+            text-align: center;
+            padding: 0.25rem 1.5rem;
+        }
+        
+        .dropdown-item a {
+            font-weight: bold;
+        }
+        
+        .dropdown-item:hover {
+            background-color: transparent !important;
+            color: rgba(0, 255, 64, 0.9) !important;
+        }
+        
+        .navbar-toggler {
+            background-color: white !important;
+        }
+        
+        .form-inline .form-control {
+            width: auto;
+            vertical-align: middle;
+            background-color: transparent;
+            color: white;
+            border: none;
+            border-bottom: 1px solid rgb(57, 106, 197, 0.9) !important;
+            border-radius: 10px;
+        }
+        /* btn login and register */
+        
+        .login,
+        .register {
+            padding: 5px 5px;
+            margin-left: 5px;
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .login {
+            background-color: rgba(0, 255, 64, 0.9);
+        }
+        
+        .register {
+            background-color: rgb(57, 106, 197, 0.9);
+        }
+        /* search */
+        
+        .my-search {
+            display: none;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid #396ac5 !important;
+            border-radius: 5px;
+            color: #fff;
+        }
+        /* row and col for shop */
+        
+        .my-col {
+            background-color: rgba(0, 0, 0, 0.9);
+            margin: 30px 10px;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+        }
+        
+        .prod {
+            margin-top: 150px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        /* form login */
+        /* Bordered form */
+        
+        .myform {
+            width: 50%;
+            border-left: 3px solid rgba(0, 255, 64, 0.9);
+            border-top: 3px solid rgba(0, 255, 64, 0.9);
+            border-right: 3px solid rgb(57, 106, 197, 0.9);
+            border-bottom: 3px solid rgb(57, 106, 197, 0.9);
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.9);
+            margin-top: 100px;
+            margin-left: 200px;
+            color: white;
+            padding: 20px 0;
+        }
+        
+        .myform h3 {
+            text-align: center;
+        }
+        /* Full-width inputs */
+        
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: none;
+            border-radius: 10px;
+            box-sizing: border-box;
+            background-color: rgba(255, 255, 255, 0.541);
+        }
+        /* Set a style for all buttons */
+        
+        .log,
+        .reg {
+            background-color: rgba(0, 255, 64, 0.9);
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            width: 100%;
+        }
+        
+        .reg {
+            background-color: rgb(57, 106, 197, 0.9) !important;
+        }
+        /* Add a hover effect for buttons */
+        
+        .log:hover,
+        .reg:hover {
+            opacity: 0.8;
+        }
+        /* Extra style for the cancel button (red) */
+        
+        .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            border-radius: 10px;
+        }
+        /* Add padding to containers */
+        /* The "Forgot password" text */
+        
+        span.psw {
+            float: right;
+            padding-top: 16px;
+        }
+        /* Change styles for span and cancel button on extra small screens */
+        
+        @media screen and (max-width: 300px) {
+            span.psw {
+                display: block;
+                float: none;
+            }
+            .cancelbtn {
+                width: 100%;
+            }
+        }
+        /* product */
+        
+        .prod-row {
+            margin: 100px auto;
+            border-radius: 20px;
+            box-shadow: 0px 0px 24px 7px rgba(0, 0, 0, 0.75);
+            background-color: rgba(255, 255, 255, 0.4);
+            padding: 5px;
+        }
+        
+        .left-col {
+            text-align: center;
+            border-right: 1px solid hsla(200, 10%, 50%, 100);
+            padding: 15px 10px !important;
+        }
+        
+        .center-col {
+            border-right: 1px solid hsla(200, 10%, 50%, 100);
+            padding: 10px 30px !important;
+        }
+        
+        .right-col {
+            padding-top: 100px;
+            padding-left: 25px;
+            font-size: 22px;
+        }
